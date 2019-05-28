@@ -1,7 +1,7 @@
 CM 2el 5/4 10m 41.67
 CM L. B. Cebik, W4RNL      
 CE
-SY Freq=21.05
+SY Freq=21.05	'15m : 21.05, 10m : 28.05
 SY L1=2
 SY L2=1.5
 SY L3=0.817328
