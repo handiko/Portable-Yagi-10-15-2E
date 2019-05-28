@@ -1,1 +1,3 @@
-Open the .nec file using 4NEC2 or other NEC software.
+Open the .nec file using either 4NEC2, EZNEC, or other NEC software.
+
+-handiko-
