@@ -1,7 +1,7 @@
 CM 2el 5/4 10m 41.67
 CM L. B. Cebik, W4RNL      
 CE
-SY Freq=21.05
+SY Freq=28.05
 SY L1=2
 SY L2=1.5
 SY L3=0.817328
@@ -15,7 +15,7 @@ SY D15=2.31
 SY D10=2.52
 SY Offset = -1 * (D10 - R15)/2
 SY L5=1
-SY L6=2
+SY L6=2.034881
 SY L7=2.085
 SY H=10
 GW	1	5	D15+Offset	-L1/2	H	D15+offset	L1/2	H	wradA

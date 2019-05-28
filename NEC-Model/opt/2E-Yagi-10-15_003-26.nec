@@ -16,7 +16,7 @@ SY D15=2.31
 SY D10=2.52
 SY Offset = -1 * (D10 - R15)/2
 SY L5=1
-SY L6=2.034639
+SY L6=2.035964
 SY L7=2.085
 SY H=10
 GW	1	5	D15+Offset	-L1/2	H	D15+offset	L1/2	H	wradA
