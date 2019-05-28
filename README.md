@@ -6,7 +6,7 @@ This problem of narrower bandwidth is not a problem since the usage at 10m band 
 ![](./panoramic.png)
 
 ## Dimensions
-The picture below will tell thousands words.
+The picture below will tell thousands words. Please left click / right click + open in new tab for the full view of the picture.
 ![](./yagi-diagram.png)
 
 **Tuning procedure:**
