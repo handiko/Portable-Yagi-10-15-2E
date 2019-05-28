@@ -1,10 +1,11 @@
 CM 2el 5/4 10m 41.67
 CM L. B. Cebik, W4RNL      
+CM forw: 70, 0 ; back: 70, 180
 CE
 SY Freq=21.05
 SY L1=2
 SY L2=1.5
-SY L3=0.817328
+SY L3=0.833356
 SY L4=1.08
 SY wradA=12.5e-3
 SY wradB=10e-3
@@ -39,5 +40,6 @@ LD	5	0	0	0	37700000
 GN	2	0	0	0	13	0.005
 EK
 EX	0	1	3	0	1	0	0
-FR	0	0	0	0	Freq	0
-EN
+FR,0,1,0,0,21.05
+PQ -1
+PT -1
