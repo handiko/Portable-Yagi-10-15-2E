@@ -11,8 +11,8 @@ The picture below will tell thousands words. Please left click / right click + o
 
 **Tuning procedure:**
 * Mount the antenna at the real installation height, or at least 7 m above the ground.
-* Tune the 15 m band driven element for lowest VSWR at 21.05 MHz. Adjust both ends simultaneously.
-* Tune the 10 m band driven element for lowest VSWR at 28.05 MHz. Adjust both ends simultaneously.
+* Tune the 15 m band driven element for the lowest VSWR at 21.05 MHz. Adjust both end simultaneously.
+* Tune the 10 m band driven element for the lowest VSWR at 28.05 MHz. Adjust both end simultaneously.
 * Back to 15 m band and check if whether the VSWR shift after 10 m band tuning. If so, then re-adjust the 15 m band driven element.
 * Again, back to 10 m band and check again. Repeat this procedure until VSWR is satifying at both band.
 
