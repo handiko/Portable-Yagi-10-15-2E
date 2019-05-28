@@ -32,9 +32,12 @@ The picture below will tell thousands words. Please left click / right click + o
 ![](./VSWR10.png)
 ![](./patt10.png)
 
-## Propagation Map Simulation (VOACAP Online)
-15m band at 9 UTC
+## Propagation Map Simulation (VOACAP Online, May 2019)
+**15m band at 9 UTC**
 ![](./prop15peak.png)
+
+**10m band at 11 UTC**
+![](./prop10peak.png)
 
 ## Contributing
 1. Fork it [https://github.com/handiko/Portable-Yagi-10-15-2E/fork](https://github.com/handiko/Portable-Yagi-10-15-2E/fork)
