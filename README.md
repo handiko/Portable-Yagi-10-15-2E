@@ -5,6 +5,23 @@ This problem of narrower bandwidth is not a problem since the usage at 10m band 
 
 ![](./panoramic.png)
 
+## Dimensions
+The picture below will tell thousands words.
+![](./yagi-diagram.png)
+
+Tuning procedure:
+* Mount the antenna at the real installation height, or at least 7 m above the ground.
+* Tune the 15 m band driven element for lowest VSWR at 21.05 MHz. Adjust both ends simultaneously.
+* Tune the 10 m band driven element for lowest VSWR at 28.05 MHz. Adjust both ends simultaneously.
+* Back to 15 m band and check if whether the VSWR shift after 10 m band tuning. If so, then re-adjust the 15 m band driven element.
+* Again, back to 10 m band and check again. Repeat this procedure until VSWR is satifying at both band.
+
+Typical VSWR:
+* 15m band; 1.04:1 at 21.05 MHz
+* 10m band; 1.12:1 at 28.05 MHz
+* 15m band gain (10 m above ground); 11.5 dBi
+* 10m band gain (10 m above ground); 12.4 dBi
+
 ## Simulation Results (15m Band)
 ![](./VSWR15.png)
 ![](./patt15.png)
