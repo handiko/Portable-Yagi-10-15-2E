@@ -14,6 +14,9 @@ SY R10=0.5
 SY D15=2.31
 SY D10=2.52
 SY Offset = -1 * (D10 - R15)/2
+SY L5=1
+SY L6=2
+SY L7=2.085
 SY H=10
 GW	1	5	D15+Offset	-L1/2	H	D15+offset	L1/2	H	wradA
 GW	2	5	D15+Offset	L1/2	H	D15+offset	L2 + L1/2	H	wradB
@@ -25,6 +28,12 @@ GW	7	5	R15+Offset	L1/2	H	R15+offset	L2 + L1/2	H	wradB
 GW	8	5	R15+Offset	-L1/2	H	R15+offset	-L1/2 - L2	H	wradB
 GW	9	3	R15+Offset	L1/2+L2	H	R15+offset	L1/2+L2+L4	H	wradC
 GW	10	3	R15+Offset	-L1/2-L2	H	R15+offset	-L1/2-L2-L4	H	wradC
+GW	11	3	D10+Offset	-L5/2	H	D10+Offset	L5/2	H	wradB
+GW	12	5	D10+Offset	L5/2	H	D10+Offset	L5/2+L6	H	wradC
+GW	13	5	D10+Offset	-L5/2	H	D10+Offset	-L5/2-L6	H	wradC
+GW	14	3	R10+Offset	-L5/2	H	R10+Offset	L5/2	H	wradB
+GW	15	5	R10+Offset	L5/2	H	R10+Offset	L5/2+L7	H	wradC
+GW	16	5	R10+Offset	-L5/2	H	R10+Offset	-L5/2-L7	H	wradC
 GE	1
 LD	5	0	0	0	37700000
 GN	2	0	0	0	13	0.005
